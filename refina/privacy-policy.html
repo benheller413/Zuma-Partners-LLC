@@ -114,6 +114,34 @@
     </ol>
     <p>We do not show third-party ads or track you across other apps.</p>
 
+    <h2>Facial Data Protection</h2>
+    <p>Facial photographs are treated as sensitive data under applicable privacy laws. We implement the following protections:</p>
+    <ul>
+        <li><strong>Encryption:</strong> All facial images encrypted in transit</li>
+        <li><strong>Access Controls:</strong> Strict authentication required; users can only access their own facial data</li>
+        <li><strong>Processing Limitation:</strong> Facial data used exclusively for AI enhancement generation</li>
+        <li><strong>No Identification:</strong> We do not use facial recognition technology for user identification</li>
+        <li><strong>Secure Processing:</strong> AI processing occurs through secure Firebase Cloud Functions with encrypted transmission</li>
+        <li><strong>User Control:</strong> Complete user control over facial data with immediate deletion capabilities</li>
+        <li><strong>Data Minimization:</strong> Only facial photos necessary for enhancement services are collected and processed</li>
+    </ul>
+
+    <h2>AI Processing and Third-Party Services</h2>
+    <p><strong>Facial Enhancement Processing:</strong></p>
+    <ul>
+        <li>Facial images are sent via secure API to AI model for enhancement generation</li>
+        <li>Images are processed transiently and not permanently stored by the AI service provider</li>
+        <li>Processing occurs through Firebase Cloud Functions acting as a secure intermediary</li>
+        <li>Enhanced images are generated based on user-selected cosmetic procedure parameters</li>
+    </ul>
+    <p><strong>Data Minimization:</strong></p>
+    <ul>
+        <li>Only facial photos necessary for enhancement services are collected and processed</li>
+        <li>No facial data is used for advertising, marketing, or research purposes</li>
+        <li>AI processing is limited to generating user-requested enhancement previews</li>
+        <li>No facial data is shared with advertising networks, social media platforms, or other third parties</li>
+    </ul>
+
     <h2>Data Sharing (Sub-processors)</h2>
     <table style="width:100%; border-collapse: collapse; margin-bottom: 24px;">
         <thead>
@@ -130,6 +158,12 @@
                 <td style="border: 1px solid #ccc; padding: 8px;">Backend hosting &amp; storage</td>
                 <td style="border: 1px solid #ccc; padding: 8px;">US/EU</td>
                 <td style="border: 1px solid #ccc; padding: 8px;">EU Standard Contractual Clauses + EU–US Data Privacy Framework</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ccc; padding: 8px;">Replicate (FLUX Kontext Pro Model)</td>
+                <td style="border: 1px solid #ccc; padding: 8px;">AI facial enhancement processing</td>
+                <td style="border: 1px solid #ccc; padding: 8px;">US</td>
+                <td style="border: 1px solid #ccc; padding: 8px;">Transient processing only, no permanent storage</td>
             </tr>
             <tr>
                 <td style="border: 1px solid #ccc; padding: 8px;">Superwall (Nest22 Inc.)</td>
@@ -151,21 +185,27 @@
     <p>Data may be processed in the United States or other regions where Firebase operates. Transfers from the EEA/UK/Switzerland rely on EU Standard Contractual Clauses and Google's Data-Privacy-Framework self-certification.</p>
 
     <h2>Your Rights</h2>
-    <p>You can access, rectify, export, or delete your data and withdraw consent at any time via <strong>Settings ▸ Account ▸ Delete Account</strong> or email <a href="mailto:privacy@your-domain.com">privacy@your-domain.com</a>. EEA/UK users may also lodge a complaint with their local supervisory authority.</p>
+    <p>You can access, rectify, export, or delete your data and withdraw consent at any time via <strong>Settings ▸ Account ▸ Delete Account</strong> or email <a href="mailto:team@trilogy-labs.com">team@trilogy-labs.com</a>. EEA/UK users may also lodge a complaint with their local supervisory authority.</p>
+    
+    <p><strong>Facial Data Rights:</strong></p>
+    <ul>
+        <li>Delete individual photos or enhancement results instantly through the app</li>
+        <li>Export your facial data and enhancement history</li>
+    </ul>
 
     <h2>California / U.S. State Disclosures</h2>
     <p>We do not sell or share personal information as defined by the CCPA/CPRA.</p>
-    <p>Collected categories: identifiers, internet activity (app logs), purchase info, geolocation (country), inferences (trial status).</p>
+    <p>Collected categories: identifiers, internet activity (app logs), purchase info, geolocation (country), inferences (trial status), biometric information (facial photographs).</p>
     <p>Right to know, delete, or correct: use in-app controls or email (same as above).</p>
 
     <h2>Security</h2>
-    <p>TLS 1.2+ in transit; AES-256 at rest.<br>Least-privilege access, MFA, quarterly audits.<br>ISO 27001 &amp; SOC-2 controls inherited from Firebase.</p>
+    <p><strong>Encryption:</strong> All facial images encrypted in transit (TLS 1.2+) and at rest (AES-256). <strong>Access Controls:</strong> Firebase Authentication with strict security rules ensuring users can only access their own facial data. <strong>Processing Limitation:</strong> Facial data used exclusively for AI enhancement generation. <strong>No Identification:</strong> We do not use facial recognition technology for user identification. <strong>Secure Processing:</strong> AI processing occurs through secure Firebase Cloud Functions with encrypted transmission. <strong>User Control:</strong> Complete user control over facial data with immediate deletion capabilities. <strong>Data Minimization:</strong> Only facial photos necessary for enhancement services are collected and processed.</p>
 
     <h2>Data Retention &amp; Deletion</h2>
-    <p>Account data kept while your account exists.<br>User-deleted photos removed from live systems immediately.<br>Receipts retained 10 years for statutory tax reasons.</p>
+    <p>Account data kept while your account exists.<br><strong>User-deleted photos removed from live systems immediately.</strong><br><strong>Enhanced images deleted when user requests deletion.</strong><br><strong>Temporary AI processing files deleted immediately after processing completion.</strong><br>Receipts retained 10 years for statutory tax reasons.</p>
 
     <h2>Automated Processing</h2>
-    <p>AI preview generation is automated but produces no legal or similarly significant effect.</p>
+    <p>AI preview generation is automated but produces no legal or similarly significant effect. Facial enhancement processing is performed solely to generate cosmetic procedure previews for user visualization purposes.</p>
 
     <h2>Changes</h2>
     <p>We'll post updates here and notify you in-app or by email 30 days before significant changes.</p>
