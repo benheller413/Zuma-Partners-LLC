@@ -9,7 +9,7 @@ body {
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    background: linear-gradient(135deg, #1C3C3C 0%, #2B5A5A 50%, #2D5D5D 75%, #437A7A 100%);
+    background: linear-gradient(135deg, #1C3C5A 0%, #2B5A8A 50%, #2D5D9A 75%, #437AB8 100%);
     background-attachment: fixed;
     padding: 20px;
     position: relative;
@@ -43,7 +43,7 @@ body::before {
 }
 
 .card {
-    background: linear-gradient(135deg, rgba(28, 60, 60, 0.5) 0%, rgba(35, 93, 93, 0.5) 100%);
+    background: linear-gradient(135deg, rgba(28, 60, 90, 0.5) 0%, rgba(35, 93, 140, 0.5) 100%);
     backdrop-filter: blur(20px);
     border-radius: 32px;
     padding: 32px;
@@ -61,7 +61,7 @@ body::before {
 
 .about-card {
     padding: 32px 48px;
-    background: linear-gradient(135deg, rgba(28, 60, 60, 0.4) 0%, rgba(35, 93, 93, 0.4) 100%);
+    background: linear-gradient(135deg, rgba(28, 60, 90, 0.4) 0%, rgba(35, 93, 140, 0.4) 100%);
     width: 100%;
     max-width: 1100px;
     margin: 0 auto;
@@ -88,7 +88,7 @@ body::before {
 }
 
 .support-link {
-    color: #20B2AA;
+    color: #3B82F6;
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
@@ -98,7 +98,7 @@ body::before {
 }
 
 .support-link:hover {
-    color: #008B8B;
+    color: #2563EB;
     transform: translateX(4px);
 }
 
@@ -155,7 +155,7 @@ h1 {
 
 .cta-button {
     display: inline-block;
-    background: #20B2AA;
+    background: #3B82F6;
     color: white;
     text-decoration: none;
     padding: 20px 40px;
@@ -163,13 +163,13 @@ h1 {
     font-size: 20px;
     font-weight: 500;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 20px rgba(32, 178, 170, 0.3);
+    box-shadow: 0 4px 20px rgba(59, 130, 246, 0.3);
 }
 
 .cta-button:hover {
-    background: #008B8B;
+    background: #2563EB;
     transform: translateY(-2px);
-    box-shadow: 0 6px 24px rgba(32, 178, 170, 0.4);
+    box-shadow: 0 6px 24px rgba(59, 130, 246, 0.4);
 }
 
 .description {
@@ -223,7 +223,7 @@ h1 {
 }
 
 .email-link {
-    color: #20B2AA;
+    color: #3B82F6;
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;
@@ -231,7 +231,7 @@ h1 {
 }
 
 .email-link:hover {
-    color: #008B8B;
+    color: #2563EB;
     text-decoration: underline;
 }
 
@@ -252,7 +252,7 @@ h1 {
 }
 
 .contact-btn:hover {
-    color: #20B2AA;
+    color: #3B82F6;
     transition: all 0.3s ease;
 }
 
